@@ -128,3 +128,31 @@ body {
     0% { opacity: 0; transform: translateY(10px); }
     100% { opacity: 1; transform: translateY(0); }
 }
+
+/* Estilos para telas maiores (acima de 600px de largura, por exemplo) */
+@media (min-width: 601px) {
+    .flores-esquerda {
+        left: 20px;
+        /* ... outros estilos ... */
+    }
+
+    .flores-direita {
+        right: 20px;
+        /* ... outros estilos ... */
+    }
+}
+
+/* Estilos para telas menores (até 600px de largura) */
+@media (max-width: 600px) {
+    .flores-esquerda {
+        left: 5%; /* Usando porcentagem para se adaptar */
+        width: 40px; /* Reduzindo o tamanho */
+        height: 40px;
+    }
+
+    .flores-direita {
+        right: 5%; /* Usando porcentagem para se adaptar */
+        width: 40px; /* Reduzindo o tamanho */
+        height: 40px;
+    }
+}

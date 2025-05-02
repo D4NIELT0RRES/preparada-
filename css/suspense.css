@@ -1,3 +1,8 @@
+.envelope {
+    /* ... outras propriedades ... */
+    max-width: 90%; /* O envelope não ocupará mais de 90% da largura da tela */
+    width: 450px; /* Mantém a largura original em telas maiores */
+}
 .suspense-container {
     display: flex;
     flex-direction: column;
